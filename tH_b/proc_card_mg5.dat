@@ -32,11 +32,10 @@ define l- = e- mu-
 define vl = ve vm vt
 define vl~ = ve~ vm~ vt~
 import model STP_UFO_freeWidth
-define Topo = b13 b13~
 define bb = b b~
-define tt = t t~
 define WW = w+ w-
-define all =  g a ve vm vt ve~ vm~ vt~ u c t d s b u~ c~ t~ d~ s~ b~ e- mu- ta- e+ mu+ ta+
+define tt = t t~
 define ferm =  ve vm vt ve~ vm~ vt~ u c d s b u~ c~ d~ s~ b~ e- mu- ta- e+ mu+ ta+
-generate p p > j tt Topo  / h ,  tt > bb ferm ferm , ( Topo > ferm ferm tt / h Z ,  tt > bb ferm ferm )
-output tW_t_b13
+define Topo = t23 t23~
+generate p p > j bb Topo  / h , ( Topo > h tt / z w+ w- , tt > bb ferm ferm)
+output tZ_b

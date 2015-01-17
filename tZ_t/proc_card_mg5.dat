@@ -36,6 +36,6 @@ define Topo = t23 t23~
 define bb = b b~
 define WW = w+ w-
 define tt = t t~
-define all =  ve vm vt ve~ vm~ vt~ u c d s b u~ c~ d~ s~ b~ e- mu- ta- e+ mu+ ta+
-generate p p > j tt Topo  / h , Topo > all all tt / h W+ W- , ( tt > bb WW , WW > all all )
-output b2g/tZ_t
+define ferm =  ve vm vt ve~ vm~ vt~ u c d s b u~ c~ d~ s~ b~ e- mu- ta- e+ mu+ ta+
+generate p p > j tt Topo  / h ,  tt > bb ferm ferm , ( Topo > ferm ferm tt / h w+ w- ,  tt > bb ferm ferm )
+output tZ_t
