@@ -27,12 +27,3 @@ tecnicalities:
 
 a) We are decaying up to W's and Z's final states inclusively, it is in 4F scheeme and contain also all the subdominant diagrams. 
 ===> the  generation of each lhe itself will take some time, it is better to do in GRID! specially the ones with t-associated ones.
-
-b) to make the process like tZ_t to be all inclusive in W and Z but not all inclusive in the T.P., instead of change syntax I turn off the T_Wt coupling in param_card. I takes more generation time, but well it is the way.
-
-c)
->Xandra, since we have decided to move to Andrea's model, can you confirm that producing 
->LHE files with Andrea's model with Madgraph5_aMC@NLO is ok.      
-yes, is ok.
-
-d) I still need to write the reweigh cards
