@@ -20,6 +20,8 @@ The subfoldes contain:
 
 The model uploaded allow free variation of VLQ total width. 
 
+a table with the production can be found here
+https://docs.google.com/spreadsheets/d/1yGLzUWK900tWAfJTm8W6LfZN-gh8jJReV5-rOX2zdek/edit?usp=sharing
 
 tecnicalities:
 
